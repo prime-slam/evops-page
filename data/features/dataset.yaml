@@ -1,0 +1,5 @@
+weight: 1
+name: "Dataset"
+icon: "fas fa-database"
+url: ""
+description: "Dataset of point clouds consisting of both real and synthetic data"

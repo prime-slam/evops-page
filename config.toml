@@ -1,3 +1,55 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'EVOPS'
+theme = "universal"
+defaultContentLanguage = "en"
+
+[params.carouselHomepage]
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params]
+    disabled_logo = true
+    logo_text = "EVOPS"
+    about_us = "<p>Active team ready for research </p>"
+
+    contact_url = "/paper/"
+    address = """<p class="text-uppercase"><strong>Mobile Robotics Lab. at Skoltech </strong>
+            <strong>Russia</strong>
+          </p>
+          """
+
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Datasets"
+    url        = "/datasets/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Metrics"
+    url        = "/metrics/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Dockers"
+    url        = "/dockers/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Paper"
+    url        = "/paper/"
+    weight     = 2
+
+[params.features]
+    enable = true
+    cols = 3
+
+[params.footer.recent_posts]
+    enable = false

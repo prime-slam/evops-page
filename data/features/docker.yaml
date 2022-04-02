@@ -1,0 +1,5 @@
+weight: 3
+name: "Dockers"
+icon: "fas fa-box"
+url: ""
+description: "Some algorithms for segmenting planes from point clouds were tested"
