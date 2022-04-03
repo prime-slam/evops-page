@@ -5,4 +5,5 @@ description: >
     <li>Fantastic project</li>
     <li>Amazing team</li>
   </ul>
+  <input type="button" class="home-button-download" value="Download">
 image: "img/carousel/pc.gif"

@@ -29,21 +29,25 @@ defaultContentLanguage = "en"
 
 [[menu.main]]
     name       = "Datasets"
+    identifier = "menu.datasets"
     url        = "/datasets/"
     weight     = 2
 
 [[menu.main]]
     name       = "Metrics"
+    identifier = "menu.metrics"
     url        = "/metrics/"
     weight     = 2
 
 [[menu.main]]
     name       = "Dockers"
+    identifier = "menu.dockers"
     url        = "/dockers/"
     weight     = 2
 
 [[menu.main]]
     name       = "Paper"
+    identifier = "menu.paper"
     url        = "/paper/"
     weight     = 2
 
