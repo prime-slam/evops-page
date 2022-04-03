@@ -4,6 +4,12 @@ title = 'EVOPS'
 theme = "universal"
 defaultContentLanguage = "en"
 
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
 [params.carouselHomepage]
     enable = true
     auto_play = true
@@ -11,6 +17,8 @@ defaultContentLanguage = "en"
     pagination_speed = 1000
 
 [params]
+    viewMorePostLink = "/datasets/"
+    date_format = "January 2, 2006"
     disabled_logo = true
     logo_text = "EVOPS"
     about_us = "<p>Active team ready for research </p>"
@@ -20,6 +28,9 @@ defaultContentLanguage = "en"
             <strong>Russia</strong>
           </p>
           """
+
+[permalinks]
+    datasets = "/datasets/:year/:month/:day/:filename/"
 
 [[menu.main]]
     name       = "Home"
@@ -37,19 +48,19 @@ defaultContentLanguage = "en"
     name       = "Metrics"
     identifier = "menu.metrics"
     url        = "/metrics/"
-    weight     = 2
+    weight     = 3
 
 [[menu.main]]
     name       = "Dockers"
     identifier = "menu.dockers"
     url        = "/dockers/"
-    weight     = 2
+    weight     = 4
 
 [[menu.main]]
     name       = "Paper"
     identifier = "menu.paper"
     url        = "/paper/"
-    weight     = 2
+    weight     = 5
 
 [params.features]
     enable = true
@@ -57,3 +68,7 @@ defaultContentLanguage = "en"
 
 [params.footer.recent_posts]
     enable = false
+
+[params.widgets]
+    categories = true
+    tags = true

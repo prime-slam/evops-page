@@ -21,7 +21,7 @@
 
                     <div class="col-md-9" id="blog-listing-medium">
 
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "datasets") }}
                         {{ range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
@@ -65,26 +65,12 @@
                                         {{ end }}
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                    <p class="read-more"><a href="https://ya.ru" class="btn btn-template-main">{{ i18n "Download" }}</a>
                                     </p>
                                 </div>
                             </div>
                         </section>
                         {{ end }}
-
-                        <ul class="pager">
-                            {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Paginator.Prev.URL | relURL }}">&larr; {{ i18n "newer" }}</a></li>
-                            {{ else }}
-                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
-                            {{ end }}
-
-                            {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Paginator.Next.URL | relURL }}">{{ i18n "older" }} &rarr;</a></li>
-                            {{ else }}
-                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
-                            {{ end }}
-                        </ul>
                     </div>
                     <!-- /.col-md-9 -->
 
