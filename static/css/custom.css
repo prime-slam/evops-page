@@ -42,3 +42,35 @@
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
+
+.metrics-button {
+    margin-right: 130px;
+}
+
+.metrics-text {
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
+.docker-algo {
+    margin-bottom: 50px;
+}
+
+.download-buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.algo-name {
+    margin-bottom: 20px;
+}
+
+
+.image-row {
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

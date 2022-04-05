@@ -1,7 +1,6 @@
 +++
 title = "Metrics"
-description = "Set of used metrics"
+id = "metrics"
+description = "Set of used metrics" 
 keywords = ["Metrics", "Calculate"]
 +++
-
-Some text about EVOPS Lib
