@@ -58,10 +58,16 @@ paginate = 10
     weight     = 4
 
 [[menu.main]]
+    name       = "Tools"
+    identifier = "menu.tools"
+    url        = "/tools/"
+    weight     = 4
+
+[[menu.main]]
     name       = "Paper"
     identifier = "menu.paper"
     url        = "/paper/"
-    weight     = 5
+    weight     = 6
 
 [params.features]
     enable = true
