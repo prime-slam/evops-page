@@ -17,6 +17,7 @@ paginate = 10
     pagination_speed = 1000
 
 [params]
+    style = "default"
     viewMorePostLink = "/datasets/"
     date_format = "January 2, 2006"
     disabled_logo = true
