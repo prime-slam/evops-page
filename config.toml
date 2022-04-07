@@ -22,7 +22,7 @@ paginate = 10
     date_format = "January 2, 2006"
     disabled_logo = true
     logo_text = "EVOPS"
-    about_us = "<p>Active team ready for research </p>"
+    about_us = "<p>Jarosh Dmitriy</p> <p>Kornilova Anastasiia</p> <p>Polosatik ????</p> <p>Mokeev Pavel</p> <p>Tojiboev Fakhriddin</p>"
 
     contact_url = "/paper/"
     address = """<p class="text-uppercase"><strong>Mobile Robotics Lab. at Skoltech </strong>
@@ -52,9 +52,9 @@ paginate = 10
     weight     = 3
 
 [[menu.main]]
-    name       = "Dockers"
-    identifier = "menu.dockers"
-    url        = "/dockers/"
+    name       = "Evaluation"
+    identifier = "menu.evaluation"
+    url        = "/evaluation/"
     weight     = 4
 
 [[menu.main]]

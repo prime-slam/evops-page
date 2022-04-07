@@ -1,5 +1,5 @@
 weight: 2
 name: "Metrics"
 icon: "fas fa-calculator"
-url: ""
+url: "/metrics"
 description: "Lots of metrics tested on our dataset"
