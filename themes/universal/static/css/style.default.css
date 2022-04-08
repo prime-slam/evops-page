@@ -553,9 +553,8 @@ ul.list-style-none {
   border-radius: 0;
 }
 .btn-template-main {
-  border: 2px solid;
   color: var(--primary-accent);
-  background-color: #e6e6e6;
+  background-color: #ffffff;
   border-color: var(--primary-accent);
 }
 .btn-template-main:hover,
@@ -564,7 +563,7 @@ ul.list-style-none {
 .btn-template-main.active,
 .open > .dropdown-toggle.btn-template-main {
   color: var(--primary-accent);
-  background-color: #ffffff;
+  background-color: #e6e6e6;
   border-color: var(--button-border);
 }
 .btn-template-main:active,
@@ -1172,8 +1171,8 @@ fieldset[disabled] .btn-template-primary.active {
   width: 100%;
   height: 100%;
   background: var(--primary-accent);
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+  opacity: 0.65;
+  filter: alpha(opacity=40);
 }
 .home-carousel .owl-carousel {
   padding-top: 60px;
