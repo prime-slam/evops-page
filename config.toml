@@ -22,12 +22,13 @@ paginate = 10
     date_format = "January 2, 2006"
     disabled_logo = true
     logo_text = "EVOPS"
-    about_us = "<p>Jarosh Dmitriy</p> <p>Kornilova Anastasiia</p> <p>Polosatik ????</p> <p>Mokeev Pavel</p> <p>Tojiboev Fakhriddin</p>"
+    about_us = ""
 
     contact_url = "/paper/"
     address = """<p class="text-uppercase"><strong>Mobile Robotics Lab. at Skoltech </strong>
-            <strong>Russia</strong>
-          </p>
+                 <strong>Russia</strong>
+                 </p>
+                 <p><strong><a href="https://sites.skoltech.ru/mobilerobotics/">Site</a></strong></p>
           """
 
 [permalinks]

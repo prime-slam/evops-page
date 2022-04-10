@@ -1,14 +1,18 @@
 <div class="container" id="evaluation">
 
     <div class="row">
-        <div class="col-md-8">
-            Some text
+        <div style="text-align: left; font-size: 17px;">
+            For benchmark we consider, to the best of our knowledge, all publicly available implementations.
+            Our evaluation list includes the following algorithms: CAPE, PEAC, DDFPP, Storm-irit, TAMS,
+            Region Growing (PCLRG) from PCL library, Connected Components from PCL library (PCLCC).
+            Their docker versions are available in our repository.
+            </p>
 
-            <p><input type="button" class="btn btn-template-main" value="Try it!"></p>
+            <p style="text-align: center;"><input type="button" class="btn btn-template-main" value="Try it!" style="width: 200px; height: 40px; font-size: 15px;"></p>
         </div>
 
-        <div class="col-md-3">
-            <img src="{{ .Params.image }}" style="width:200%; height: 200%; padding-bottom: 100px;">
+        <div style="text-align: center;">
+            <img src="{{ .Params.image }}" style="width:70%; height: 70%; padding-bottom: 100px;">
         </div>
     </div>
     <!-- /.row -->
