@@ -1,18 +1,25 @@
 <div class="container" id="evaluation">
 
     <div class="row">
-        <div style="text-align: left; font-size: 17px;">
-            For benchmark we consider, to the best of our knowledge, all publicly available implementations.
-            Our evaluation list includes the following algorithms: CAPE, PEAC, DDFPP, Storm-irit, TAMS,
-            Region Growing (PCLRG) from PCL library, Connected Components from PCL library (PCLCC).
-            Their docker versions are available in our repository.
+        <div style="text-align: left; font-size: 17px; padding-bottom: 50px;">
+            In the course of the work, various algorithms were investigated.
+            Our evaluation list includes the following algorithms:
+            <a href="https://ya.ru">CAPE</a>,
+            <a href="https://ya.ru">PEAC</a>,
+            <a href="https://ya.ru">DDFPP</a>,
+            <a href="https://ya.ru">Storm-irit</a>,
+            <a href="https://ya.ru">Region Growing (PCLRG) from PCL library</a>,
+            <a href="https://ya.ru">Connected Components from PCL library (PCLCC)</a>.
+            The performance of the algorithms was evaluated using our benchmark on various metrics.
             </p>
 
-            <p style="text-align: center;"><input type="button" class="btn btn-template-main" value="Try it!" style="width: 200px; height: 40px; font-size: 15px;"></p>
+            <h4 style="font-size: 17px;">Try algorithms</h4>
+            All algorithms were implemented in C++ and packaged in docker containers, which you can find in our
+            <a href="https://github.com/MobileRoboticsSkoltech/3D-plane-segmentation">repository</a>.
+            In this image, you can see examples of visualization of the work of various algorithms:
         </div>
-
         <div style="text-align: center;">
-            <img src="{{ .Params.image }}" style="width:70%; height: 70%; padding-bottom: 100px;">
+            <img src="{{ .Params.image }}" style="width:100%; height: 100%; padding-bottom: 100px;">
         </div>
     </div>
     <!-- /.row -->

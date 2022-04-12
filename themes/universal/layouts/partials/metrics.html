@@ -6,11 +6,19 @@
             <section>
 
                 <div>
-                    <h1>EVOPS Benchmark</h1>
+                    <div style="padding-bottom: 10px">
+                        <p class="metrics-text" style="padding-bottom: 14px">
+                            It's a benchmark which includes a set of several metrics that can be used to
+                            evaluate the quality of the algorithms for segmenting planes from point clouds.
+                        </p>
 
-                    <p class="metrics-text">
-                        Abzac opisaniya
-                    </p>
+                        <p class="metrics-text">
+                            You can install our benchmark using the <a href="https://ya.ru">pip</a> package manager.
+
+                            {{ .Content }}
+
+                        </p>
+                    </div>
 
                     <div class="download-buttons">
                         <input type="button" class="btn btn-template-main metrics-button" value="GitHub">
@@ -22,8 +30,8 @@
         </div>
 
         <div class="col-md-3" style="text-align: center;">
-            <img src="{{ .Params.logo }}" style="width:120%; height: 120%; padding-bottom: 100px;">
-            <img src="{{ .Params.github }}" style="width:80%; height: 80%; padding-bottom: 100px;">
+            <img src="{{ .Params.logo }}" style="width:80%; height: 80%; padding-bottom: 40px;">
+            <img src="{{ .Params.github }}" style="width:60%; height: 60%; padding-bottom: 100px;">
         </div>
 
     </div>

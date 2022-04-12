@@ -28,7 +28,7 @@ paginate = 10
     address = """<p class="text-uppercase"><strong>Mobile Robotics Lab. at Skoltech </strong>
                  <strong>Russia</strong>
                  </p>
-                 <p><strong><a href="https://sites.skoltech.ru/mobilerobotics/">Site</a></strong></p>
+                 <p><strong><a href="https://sites.skoltech.ru/mobilerobotics/">Lab Official Page</a></strong></p>
           """
 
 [permalinks]
