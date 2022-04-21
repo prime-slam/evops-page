@@ -13,10 +13,12 @@ image7 = "/img/paper/IROS7.png"
 +++
 
 ```
-@inproceedings{behley2019iccv,
-  author = {J. Behley and M. Garbade and A. Milioto and J. Quenzel and S. Behnke and C. Stachniss and J. Gall},
-  title = {{SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences}},
-  booktitle = {Proc. of the IEEE/CVF International Conf.~on Computer Vision (ICCV)},
-  year = {2019}
+@misc{kornilova2022evops,
+      title={EVOPS Benchmark: Evaluation of Plane Segmentation from RGBD and LiDAR Data}, 
+      author={Anastasiia Kornilova, Dmitrii Iarosh, Denis Kukushkin, Nikolai Goncharov, Pavel Mokeev, Arthur Saliou, Gonzalo Ferrer},
+      year={2022},
+      eprint={2204.05799},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
