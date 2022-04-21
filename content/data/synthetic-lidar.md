@@ -2,7 +2,7 @@
 title = "Synthetic LIDAR"
 tags = ["lidar", "dataset", "real"]
 categories = ["lidar"]
-banner = "img/banners/banner-4.jpg"
+banner = "img/banners/syntheticLIDAR.gif"
 authors = ["Best team in world"]
 +++
 

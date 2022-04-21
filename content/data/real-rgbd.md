@@ -2,7 +2,7 @@
 title = "Real RGBD"
 tags = ["rgbd", "dataset", "real"]
 categories = ["rgbd"]
-banner = "img/banners/banner-4.jpg"
+banner = "img/banners/realRGBD.gif"
 authors = ["Best team in world"]
 +++
 

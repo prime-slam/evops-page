@@ -1,8 +1,13 @@
 <div class="container" id="somepage">
   <div class="col-md-12">
-    <p class="lead" style="text-align: center">
+    <p class="lead" style="text-align: center; font-weight: bold; font-size: 24px; margin-bottom: 12px;">
       {{ .Description | markdownify }}
     </p>
+    <div style="text-align: center; font-size: 15.5px; margin-bottom: 20px;">
+      To annotate different modalities and datasets, we use
+      different techniques for semi-automatically data labeling and
+      post-processing.
+    </div>
 
     <div class="row">
       {{ $posts := .Site.GetPage "/data/" }}
@@ -10,6 +15,9 @@
       <div class="col-md-3 col-sm-6">
         <div class="box-image-text blog">
           <div class="top">
+            <div style="font-size: 16px; font-weight: bold; margin-bottom: 10px;">
+              {{ .Params.title }}
+            </div>
             <div class="image" style="overflow:hidden">
               {{ if isset .Params "banner" }}
               <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" >
@@ -32,7 +40,7 @@
             {{ if not .Site.Params.recent_posts.hide_summary }}
             <p class="intro">{{ .Summary }}</p>
             <p class="read-more">
-              <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "Download" }}</a>
+              <a href="https://drive.google.com/drive/folders/1ss7o1aFlwu4QY6sLZMoYJ0EO1SoXm21g" class="btn btn-template-main">{{ i18n "Download" }}</a>
             </p>
             {{ end }}
           </div>
