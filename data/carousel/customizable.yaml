@@ -2,8 +2,8 @@ weight: 4
 title: "EVOPS"
 description: >
   <ul class="list-style-none">
-    <li>Fantastic project</li>
-    <li>Amazing team</li>
+    <li>Datasets and benchmark</li>
+    <li>For your algorithm</li>
   </ul>
   <input type="button" class="btn btn-template-main" value="Download" onclick="window.location='/datasets/';">
 image: ""

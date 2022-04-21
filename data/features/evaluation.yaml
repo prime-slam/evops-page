@@ -1,5 +1,5 @@
 weight: 3
 name: "Evaluation"
-icon: "fas fa-docker"
+icon: "fab fa-docker"
 url: "/evaluation/"
-description: "Some algorithms for segmenting planes from point clouds were tested"
+description: "Well-known segmentation algorithms are implemented and evaluated on our data"

@@ -2,4 +2,4 @@ weight: 2
 name: "Metrics"
 icon: "fas fa-calculator"
 url: "/metrics"
-description: "Lots of metrics tested on our dataset"
+description: "Benchmark includes many metrics for instance segmentation."
