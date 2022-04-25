@@ -1,5 +1,5 @@
 +++
-title = "EVOPS Benchmark"
+title = "EVOPS Library"
 id = "metrics"
 description = "Set of used metrics" 
 keywords = ["Metrics", "Calculate"]

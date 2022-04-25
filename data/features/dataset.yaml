@@ -2,4 +2,4 @@ weight: 1
 name: "Dataset"
 icon: "fas fa-database"
 url: "/datasets"
-description: "3D data, both from RGBD images and LiDAR point clouds."
+description: "Labeled 3D kit of known datasets: CARLA, KITTI, TUM, ICL"

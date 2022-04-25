@@ -801,7 +801,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 30px;
   margin-bottom: 0;
   position: relative;
-  background: url('../img/photogrid.gif') center center repeat;
+  background: url('../img/photogrid4.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1158,8 +1158,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/photogrid.gif') center center repeat;
-  background-size: 106%;
+  background: url('../img/photogrid4.jpg') center center;
+  background-size: 100%;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1447,6 +1447,10 @@ fieldset[disabled] .btn-template-primary.active {
 .box-simple {
   text-align: center;
   margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .box-simple .icon {
   color: var(--primary-accent);

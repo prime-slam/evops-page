@@ -25,8 +25,8 @@ paginate = 10
     about_us = ""
 
     contact_url = "/paper/"
-    address = """<p class="text-uppercase"><strong>Mobile Robotics Lab. at Skoltech </strong>
-                 <strong>Russia</strong>
+    address = """<p class="text-uppercase"><strong>Mobile Robotics Lab. Skoltech,</strong>
+                 <strong> Russia</strong>
                  </p>
                  <p><strong><a href="https://sites.skoltech.ru/mobilerobotics/">Lab Official Page</a></strong></p>
           """

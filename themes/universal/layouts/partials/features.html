@@ -31,8 +31,8 @@
                             {{ with $element.url }}
                             </a>
                             {{ end }}
-                            <h3>{{ $element.name | markdownify }}</h3>
-                            <p>{{ $element.description | markdownify }}</p>
+                            <h3 style="width: fit-content">{{ $element.name | markdownify }}</h3>
+                            <p style="width: 260px;">{{ $element.description | markdownify }}</p>
                         </div>
                     </div>
                 {{ end }}
