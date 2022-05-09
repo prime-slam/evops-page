@@ -8,5 +8,5 @@ github = "/img/metrics/github.png"
 +++
 
 ```bash
-pip3 install evops
+pip install evops
 ```

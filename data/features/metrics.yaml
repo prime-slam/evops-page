@@ -2,4 +2,4 @@ weight: 2
 name: "Metrics"
 icon: "fas fa-calculator"
 url: "/metrics"
-description: "Pip package of instance segmentation for plane segmentation"
+description: "Pip-package with instance segmentation metrics adopted for planes"

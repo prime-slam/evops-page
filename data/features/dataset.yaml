@@ -2,4 +2,4 @@ weight: 1
 name: "Dataset"
 icon: "fas fa-database"
 url: "/datasets"
-description: "Labeled 3D kit of known datasets: CARLA, KITTI, TUM, ICL"
+description: "Labeled data from famous datasets:\n TUM, ICL NUIM, KITTI, CARLA"

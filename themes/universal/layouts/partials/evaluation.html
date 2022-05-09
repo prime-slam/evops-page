@@ -2,21 +2,21 @@
 
     <div class="row col-md-12">
         <div style="text-align: left; font-size: 17px; padding-bottom: 50px;">
-            In the course of the work, various algorithms were evaluated on our data.
+            In the course of the work, various algorithms were evaluated on our data. 
             Our evaluation list includes the following algorithms:
             <a href="https://arxiv.org/abs/1803.02380">CAPE</a>,
             <a href="https://ieeexplore.ieee.org/document/6907776">PEAC</a>,
-            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lqjRbXgAAAAJ&sortby=pubdate&citation_for_view=lqjRbXgAAAAJ:p__nRnzSRKYC">DDFPP</a>,
-            <a href="https://hal.archives-ouvertes.fr/hal-02490721/document">Storm-irit</a>,
-            <a href="http://ais.uni-bonn.de/papers/IAS_2012_Holz.pdf">Region Growing (PCLRG) from PCL library</a>,
-            <a href="https://cs.gmu.edu/~kosecka/ICRA2013/spme13_trevor.pdf ">Connected Components from PCL library (PCLCC)</a>.
-            The performance of the algorithms was evaluated using <a href="https://pmokeev.github.io/evops-page/#/">our library</a>
+            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lqjRbXgAAAAJ&sortby=pubdate&citation_for_view=lqjRbXgAAAAJ:p__nRnzSRKYC">modified region growing</a>,
+            <a href="https://hal.archives-ouvertes.fr/hal-02490721/document">automatic extraction of multi-scale structures</a>,
+            <a href="http://ais.uni-bonn.de/papers/IAS_2012_Holz.pdf">Region Growing (PCL library implementation)</a>,
+            <a href="https://cs.gmu.edu/~kosecka/ICRA2013/spme13_trevor.pdf ">Connected Components (PCL library implementation)</a>.
+            The performance of the algorithms was evaluated using <a href="https://pmokeev.github.io/evops-page/#/">evops</a>
             on metrics, such as, precision, recall, F-score, intersection
             over union (IoU), DICE.
             </p>
 
             <h4 style="font-size: 17px;">Try algorithms</h4>
-            All algorithms were implemented in C++ and packaged in docker containers, which you can find in our
+            All algorithms were implemented in C++ (using code from original repositories) and packaged in docker containers, which you can find in our
             <a href="https://github.com/MobileRoboticsSkoltech/3D-plane-segmentation">repository</a>.
             In this image, you can see examples of visualization of the work of various algorithms:
         </div>
