@@ -1,6 +1,6 @@
 +++
 title = "Datasets"
 id = "datasets"
-description = "KIT OF CREATED DATASETS"
+description = "KIT OF LABELED DATASETS"
 keywords = ["Metrics", "Calculate"]
 +++

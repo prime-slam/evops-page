@@ -10,15 +10,15 @@
             <a href="https://hal.archives-ouvertes.fr/hal-02490721/document">automatic extraction of multi-scale structures</a>,
             <a href="http://ais.uni-bonn.de/papers/IAS_2012_Holz.pdf">Region Growing (PCL library implementation)</a>,
             <a href="https://cs.gmu.edu/~kosecka/ICRA2013/spme13_trevor.pdf ">Connected Components (PCL library implementation)</a>.
-            The performance of the algorithms was evaluated using <a href="https://pmokeev.github.io/evops-page/#/">evops</a>
-            on metrics, such as, precision, recall, F-score, intersection
-            over union (IoU), DICE.
+
+            The quality of algorithm was evaluated on our labeled <a href="/datasets">dataset</a> using our <a href="/metrics">pip-package</a> for metrics.
             </p>
 
             <h4 style="font-size: 17px;">Try algorithms</h4>
-            All algorithms were implemented in C++ (using code from original repositories) and packaged in docker containers, which you can find in our
+
+            All considered algorithms were wrapped up in docker containers and available in our 
             <a href="https://github.com/MobileRoboticsSkoltech/3D-plane-segmentation">repository</a>.
-            In this image, you can see examples of visualization of the work of various algorithms:
+            Below, examples of running algorithms on our data are demonstrated.
         </div>
         <div style="text-align: center;">
             <img src="{{ .Params.image }}" style="width:100%; height: 100%; padding-bottom: 100px;">
