@@ -41,9 +41,9 @@ paginate = 10
     weight     = 1
 
 [[menu.main]]
-    name       = "Datasets"
-    identifier = "menu.datasets"
-    url        = "/datasets/"
+    name       = "Dataset"
+    identifier = "menu.dataset"
+    url        = "/dataset/"
     weight     = 2
 
 [[menu.main]]
