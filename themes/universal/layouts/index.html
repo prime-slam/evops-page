@@ -4,6 +4,8 @@
   <head>
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
   </head>
 
   <body>

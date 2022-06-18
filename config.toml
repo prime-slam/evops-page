@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'EVOPS'
 theme = "universal"
 defaultContentLanguage = "en"
-googleAnalytics = "G-81P0JH8B8L"
+googleAnalytics = "G-6ED0DBMYB3"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
