@@ -1,5 +1,5 @@
 weight: 1
 name: "Dataset"
 icon: "fas fa-database"
-url: "/datasets"
+url: "/dataset"
 description: "Labeled data from famous datasets:\n TUM, ICL NUIM, KITTI, CARLA"
